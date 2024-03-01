@@ -28,4 +28,8 @@
      .titulo-principal span{
         color: var(--aba-inativa);
      }
-    
+    .botao{
+        font-family: 'Chakra Petch', sans-serif;
+        background-color: var(--aba-inativa);
+        color: var(--cor-do-texto);
+    }
