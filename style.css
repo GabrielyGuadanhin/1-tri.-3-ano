@@ -32,4 +32,7 @@
         font-family: 'Chakra Petch', sans-serif;
         background-color: var(--aba-inativa);
         color: var(--cor-do-texto);
+        display: flex;
+        justify-content: center;
+        padding: 1em;
     }
