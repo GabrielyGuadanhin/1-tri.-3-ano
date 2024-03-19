@@ -1,6 +1,11 @@
 const botoes = document.querySelectorAll(".botoes")
-for( int = 0 < botoes.length; j++;){
+
+for(let i = 0; i < botoes.length; j++;){
     botoes (i).onclick = function(){
-        for(int)
+        for(let j=0; j< botoes.length; j++){
+            botoes[j].classList.remove("ativo');
+
+       }  
+        botoes[i].classList.add("ativo")
     }
 }
