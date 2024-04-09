@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
 :root{ 
     --cor-de-fundo:#7233D9;
     --cor-do-texto:#FFFFFF;
@@ -73,7 +73,7 @@
         color: var(--cor-do-texto);
         text-transform: uppercase;
     }
-    
+
     @media screen and (min-width: 768px) {
         .botoes{
             display: flex;
