@@ -53,6 +53,20 @@
         background-color: var(--aba-ativa);
         border-bottom: var(--aba-ativa);
     }
+    .abas-textos{
+        background-color: var(--cor-de-fundo);
+        padding: 40px;
+        border-radius: 0 0 40px 40px;
+    }
+    .abas-conteudo.ativo{
+        display: block;
+    }
+    .aba-conteudo{
+        display: none;
+    }
+    .aba-conteudo-titulo-principal{
+        
+    }
     @media screen and (min-width: 768px) {
         .botoes{
             display: flex;
