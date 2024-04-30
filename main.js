@@ -13,6 +13,23 @@ for(let i = 0; i < botoes.length; i++) {
     }
     const contadores = document.querySelectorAll(".contador");
     const tempoObjetivo =new Date ("2025-01-28T00:00:00");
-    let tempoAtual = new Date();
+    const tempos = [tempoObjetivo1]
 
-    contadores[0].textContent = tempoObjetivo - tempoAtual;
+   for(let 1=0; i< contadores.length; i++){
+        contadores[0].textContent = calculaTempo(tempos[i]);
+   }
+   contadores[0].textContent = calculaTempo(tempoObjetivo1);
+   function calculaTempo(tempoObjetivo){
+    let tempoAtual = newdate();
+    let tempoFinal = tempoObjetivo1 - tempoAtual;
+    let segundos = Math.floor(tempoFinal / 1000);
+    let minutos = Math.floor(segundos / 60);
+    let horas = Math.floor(minutos / 60);
+    let dias = Math.floor(horas / 24);
+   
+    segundos %=60;
+    minutos %=60;
+    horas %=24;
+
+    return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
+   }
